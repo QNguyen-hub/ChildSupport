@@ -7,7 +7,7 @@ import Enf from "./components/Enf/Enf";
 import Mod from "./components/Mod/Mod";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />}>
           <Route path="/intake" element={<Intake />} />
