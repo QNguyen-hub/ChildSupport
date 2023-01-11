@@ -1,7 +1,7 @@
 {
   "name": "childsupport",
   "version": "0.1.0",
-  "homepage": "https://qnguyen-hub.github.io/ChildSupport/",
+  "homepage": "https://qnguyen-hub.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

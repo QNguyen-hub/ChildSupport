@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route path="intake" element={<Intake />} />
-          <Route path="est" element={<Est />} />
-          <Route path="enf" element={<Enf />} />
-          <Route path="mod" element={<Mod />} />
+          <Route path="/intake" element={<Intake />} />
+          <Route path="/est" element={<Est />} />
+          <Route path="/enf" element={<Enf />} />
+          <Route path="/mod" element={<Mod />} />
         </Route>
       </Routes>
     </BrowserRouter>
