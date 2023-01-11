@@ -17,7 +17,7 @@ const mainStyle = {
 };
 const Home = () => {
   return (
-    <div>
+    <div style={{ backgroundImage: `url(${background})` }}>
       <div style={navStyle}>
         <Nav />
       </div>
